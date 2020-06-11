@@ -2,8 +2,8 @@
 // This is a slightly modified Knob sketch from the Arduino Examples
 // Sketch written by Geoff
 
-int pot_pin = 0;  // analog pin for pot
-int pwm_pin = 9;  // pwm pin used to write to the LED or laser
+int pot_pin = 0;  // analog pin for pot, this can be any A# pin
+int pwm_pin = 9;  // pwm pin used to write to the LED or laser, this can be any pwm capable pin
 int val;    // variable to read analog value from pot
 
 void setup() {
